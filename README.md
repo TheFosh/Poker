@@ -4,7 +4,7 @@
 
 ### Understanding the code:
 1. Given the class ['Card'](https://github.com/TheFosh/Poker/blob/main/Poker/src/poker/Card.java) and enums ['Suit'](https://github.com/TheFosh/Poker/blob/main/Poker/src/poker/Suit.java) and ['Rank'](https://github.com/TheFosh/Poker/blob/main/Poker/src/poker/Rank.java), it makes a full deck of 52 'PokerCard' objects. Each containing a different suit and rank.
-2. 5 random cards from the deck are selected and added to a ['Hand'](https://github.com/TheFosh/Poker/blob/main/Poker/src/poker/Rank.java) object that holds all 5 cards. This hand is then sorted based on rank.
+2. 5 random cards from the deck are selected and added to a ['Hand'](https://github.com/TheFosh/Poker/blob/main/Poker/src/poker/Hand.java) object that holds all 5 cards. This hand is then sorted based on rank.
    * This is possible since 'PokerCard' implements the 'Compareable' and overrides the 'CompareTo' method.
 3. All cards are then checked to see what score the hand has. Starts from highest possible score to least.
    * Project didn't include the hands for two pairs and full house.
